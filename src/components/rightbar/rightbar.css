@@ -1,0 +1,120 @@
+.rightbar {
+ flex: 3.5;
+
+}
+@media (max-width : 600px) {
+    .rightbar{
+        display: none;
+    }
+}
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+.virthdayImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.birthdayText{
+    font-weight: 200;
+    font-size: 15px;
+}
+.birdthaygiftImage {
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.rightbarTitleFriends{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.rightbaronlineFreind{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+.friendsrightbar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.friendsAvTx{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.imageFriend{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.online{
+    width: 12px;
+    height: 12px;
+    background-color: lawngreen;
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 50%;
+    right: -1px;
+    top: -2px;    
+    
+}
+.usernameOnline {
+    margin-left: 12px;
+    font-weight:400;
+}
+
+/* for profile style  */
+.rightbarTitle{
+    font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;;
+}
+.userInfo{
+    margin-bottom: 20px;
+}
+.userInfoItems {
+    margin-bottom: 10px;
+}
+.userInfoKey {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.userInfoValue {
+    font-weight: bold;
+}
+.userFallowings{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* margin-bottom: 10px; */
+    justify-content: space-between;
+}
+.userFallowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.userFallowigImg{
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}

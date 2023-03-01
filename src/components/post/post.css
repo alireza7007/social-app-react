@@ -1,0 +1,84 @@
+.post {
+    
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 0px 17px 5px rgba(0,0,0,0.76); 
+    box-shadow: 2px 0px 17px 5px rgba(0,0,0,0.76);
+}
+.postWrapper { 
+    padding: 10px;
+}
+.topPost{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.topLeft{
+    display: flex;
+    align-items: center;
+}
+.userImage{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.userText{
+    margin: 0px 10px;
+    font-size: 24px;
+    font-weight:500;
+}
+.postDate{
+    margin: 4px 5px 0px 5px;
+    font-size: 12px;
+}
+.topRight{
+    cursor: pointer;
+}
+.centerPost{
+   margin: 20px 0px;
+
+}
+.postImage{
+    width: 100%;
+    max-height: 500px;
+   margin-top: 20px;
+    object-fit: contain;
+}
+.postDesc{
+    font-size: 18px;
+   
+}
+.bottomPost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likePost{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.heartPost{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+.conterPost{
+font-size: 15px;
+
+}
+.postComments{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    font-size: 15px
+}

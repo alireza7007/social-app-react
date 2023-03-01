@@ -1,0 +1,71 @@
+.share {
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 0px 17px 5px rgba(0,0,0,0.76); 
+    box-shadow: 2px 0px 17px 5px rgba(0,0,0,0.76);
+}
+.shareWrapper {
+    padding: 20px;
+}
+.shareTop {
+    display: flex;
+    align-items: center;
+}
+.shareImg{
+    height: 36px;
+    width: 36px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.shareInput {
+    border: none;
+    width: 70%;
+}
+.shareInput:focus {
+    outline: none;
+}
+.shareHr{
+    margin-top: 10px;
+}
+.shareButtom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shareOptions {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.shareIcon {
+    font-size: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.shareText {
+    font-size: 15px;
+    font-weight: 500;
+}
+.shareButton {
+    background-color: rgb(0, 162, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    border: none;
+    font-size: 15px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.shareButton:hover {
+    background-color: rgb(10, 83, 167);
+    border: none;
+    color: antiquewhite;
+    
+}

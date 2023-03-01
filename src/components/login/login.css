@@ -1,0 +1,100 @@
+.login {
+     width: 100vw;
+     height: 100vh;
+    background-image:url("../../../public/assets/background.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logwrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.loginleft,
+.loginright{
+flex: 1;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.wellcomelogintitle {
+    color:#e91f1f ;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.descLogin {
+font-size: 24px;
+font-weight: 500;
+margin-right: 5px;
+
+
+}
+.loginBox {
+   
+   height:300px;
+   border-radius: 10px;
+   padding: 20px;
+   justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+.inputLogin{
+    
+    height: 50px;
+    border: 1px solid gray;
+   font-size: 18px;
+    border-radius: 15px;
+    padding-left: 10px;
+   
+}
+.inputLogin:focus {
+    outline: none;
+}
+.inputLogin::placeholder {
+     color: #1775ee;
+     font-weight: 500;
+     opacity: 0.5;
+}
+.loginSubmit{
+    height: 40px;
+    background-color:#1775ee;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    border:  1px solid gray;
+    cursor: pointer;
+    font-weight: 500;
+}
+.loginSubmit:hover {
+    background-color:#124a92;
+}
+.forgatLogin {
+    font-size: 18px;
+    color: #1775ee;
+    text-align: center;
+    opacity: 0.8;
+}
+.registerLogin {
+    height: 40px;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    color: white;
+    background-color:#42b72a;
+    border: none;
+    font-size: 20px;
+    font-weight:500 ;
+}
+.registerLogin:hover{
+    background-color:#25910f;
+}
+.registerLoginGoogle {
+    text-decoration: none;
+    font-style: 20px;
+    color: #1775ee;;
+
+}
